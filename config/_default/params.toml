@@ -36,7 +36,7 @@ highlightCurrentMenuArea = true
 
 [homepage]
   layout = "hero" #Like background # valid options: page, profile, hero, card, background, custom
-  homepageImage = "landscape03.jpg" # used in: hero, and card
+  homepageImage = "christopher-burns-Kj2SaNHG-hg-unsplash.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 6
   showMoreLink = true
