@@ -1,7 +1,7 @@
 ---
 title: "Monitor All the Things!"
 date: 2025-04-21
-draft: true
+draft: false
 summary: "I really like monitoring..."
 tags: ["monitoring","network","server","graphs","alerts"]
 ---
