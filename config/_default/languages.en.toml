@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Joshua Carmack"
 
 [params]
   displayName = "EN"
@@ -17,7 +17,7 @@ title = "Blowfish"
    name = "Joshua Carmack"
    image = "profilepic.JPG"
    headline = "IT Tech, media guru, and radio operator from Kingsport, TN"
-   bio = "A little bit about you"
+   bio = "Tech, media, and radio nerd"
    links = [
      { email = "mailto:joshuahcarmack@gmail.com" },
      { link = "https://joshuacarmack.com/" },
