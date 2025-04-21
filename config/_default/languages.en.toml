@@ -16,7 +16,7 @@ title = "Joshua Carmack"
  [author]
    name = "Joshua Carmack"
    image = "profilepic.JPG"
-   headline = "IT Tech, media guru, and radio operator from Kingsport, TN"
+   headline = "IT Tech, photographer, and radio operator from Kingsport, TN"
    bio = "Tech, media, and radio nerd"
    links = [
      { email = "mailto:joshuahcarmack@gmail.com" },
