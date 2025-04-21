@@ -13,6 +13,11 @@
 [[main]]
   name = "Posts"
   pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "Gallery"
+  pageRef = "https://gallery.joshuacarmack.com"
   weight = 10
 
 #[[main]]
@@ -47,10 +52,10 @@
 #  pageRef = "categories"
 #  weight = 20
 
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
+#[[main]]
+#  name = "Tags"
+#  pageRef = "tags"
+#  weight = 30
 
 
 # -- Footer Menu --
