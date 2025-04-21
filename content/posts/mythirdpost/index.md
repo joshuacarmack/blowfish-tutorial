@@ -1,7 +1,7 @@
 ---
 title: "My third post"
 date: 2023-08-16
-draft: false
+draft: true
 summary: "This is my third post on my site"
 tags: ["space"]
 ---
