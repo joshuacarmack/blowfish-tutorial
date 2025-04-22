@@ -20,6 +20,10 @@ This can be used to check if a location's internet is up or down, or making sure
 
 ![Uptime Kuma Ping](rbc-wan-ping.png)
 
+Below is an alert from where a WAN connection monitor went down and sent an alert to my phone. 
+
+![Uptime Kuma Alert](down-alert.png)
+
 Uptime Kuma can also do other monitors such as checking a website for a specific word or phrase to make sure it is there, or checking specific ports. 
 
 One way I use this is for checking a radio system for the radio club I am a part of. We use a system called Echolink that bascially puts a radio that is hosted at my house on the internet for other radio operators to use to communicate on our repeater. The Echolink system has a webpage that lists all of the active connections on it, so I am able to do a keyword monitor in Uptime Kuma that checks that page and looks for our node number. If the number is not found in the list, our node has been disconnected and it will alert me. 
@@ -65,8 +69,21 @@ This setup allows some flexbility and also security. With a proxy at each locati
 
 For church, all of our computers have Zabbix agents on them that report tons of data from them to the Zabbix system. This can be things like uptime, if they are rebooting often, or drive, processor, or memory utilization. This allows me to keep an eye on all of our production systems to make sure that everything is running at full capacity. 
 
+Zabbix itself has some nice reporting. On the homepage it will show me any alerts that exist across any systems. Below it is showing an informative alert about an access point at church that has high utilization. It also shows 2 warning alerts, one for disk space on a media computer and the other for the toner cartridge in my printer being low.
+
+![Zabbix Problems](zabbix-problems.png)
+
+It can also do diagrams, which can show networks and any issues that exist at any point in the map. Below is an overview map of Ridgeview's network. This shows me all of the switches, access points, cameras, and major systems. This provides a quick overview of how everything is wired together and helps troubleshooting issues quicker. You can see the MEDIA2 PC is alerting for the disk space issue. 
+
+![Zabbix Network Diagram](zabbix-church-map.png)
+
 
 ## Little bit of Grafana
+
+Zabbix can give good insights into alerts, but it doesn't present data too nicely and that is where Grafana comes into play.
+
+Grafana is made to take in multiple sources of data and make pretty graphs and diagrams out of it. There are several data sources that I use for Grafana including pulling data right from Zabbix, querying MySQL databases, and even websites and other data feeds.
+
 
 
 ## Tactical RMM
