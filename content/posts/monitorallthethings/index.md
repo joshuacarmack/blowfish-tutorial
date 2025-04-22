@@ -32,6 +32,7 @@ After using Uptime Kuma for a while, I decided it was time to expand my monitori
 
 The main thing that drew me to Zabbix is the way that it can be set up as a distributed monitoring system. I have a main Zabbix Server that is hosted on a cloud VPS in Linode's Atlanta data center. I then have a Zabbix Proxy at my house and at church. These are small virtual machines that do all of the monitoring inside of the network and report back to the main server. See the diagram below.
 
+<div style="background-color:white; padding: 20px">
 {{< mermaid >}}
 graph TD
     %% Top layer
@@ -58,6 +59,7 @@ graph TD
         ChurchProxy --> ChurchRouter[Router]
     end
 {{< /mermaid >}}
+</div>
 
 This setup allows some flexbility and also security. With a proxy at each location, the devices at that location send their data to the proxy which then sends it encrypted to the main server for processing, storage, and alerting. This also allows each proxy to be able to do active checks on devices such as printers, network switches, and batteries that can't run a Zabbix agent to report data. 
 
